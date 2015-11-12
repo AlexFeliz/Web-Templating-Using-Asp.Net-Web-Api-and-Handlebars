@@ -9,7 +9,7 @@ using System.Web.Configuration;
 using Shared.Interfaces;
 using Data;
 
-namespace TestCart.App_Start
+namespace TestCart.App_Code
 {
 	public class MyDependencyResolver : IDependencyResolver
 	{
