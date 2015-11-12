@@ -1,0 +1,17 @@
+﻿<div>
+    {{#each Products}}
+        <div class="ProductGridItem">
+            <div>
+                <div style="display:block;overflow:hidden;margin:0 auto;">
+                    <a href="Product.aspx?id={{Id}}"><img src="../../Content/Images/{{Image}}" /></a>
+                </div>
+            </div>
+            <hr />
+            <div><a href="Product.aspx?id={{Id}}"><b>{{Name}}</b></a></div>            
+            <hr />
+            <div style="text-align:center;"><b>Rs. {{Price}}</b></div>    
+            <hr />      
+            <div><a class="AddToCartGridButton" href="#">Add To Cart</a></div>  
+        </div>
+    {{/each}}
+</div>

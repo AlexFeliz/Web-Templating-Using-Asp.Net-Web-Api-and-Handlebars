@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCart", "TestCart\TestCart.csproj", "{615A6A9E-3582-45AD-AD3D-CFF4974FE4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{70E5C9FA-FA17-4894-8CCC-65750F6BC9E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{3141DCEF-FF2D-43C7-9730-069E2EB219D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{615A6A9E-3582-45AD-AD3D-CFF4974FE4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615A6A9E-3582-45AD-AD3D-CFF4974FE4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615A6A9E-3582-45AD-AD3D-CFF4974FE4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615A6A9E-3582-45AD-AD3D-CFF4974FE4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E5C9FA-FA17-4894-8CCC-65750F6BC9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E5C9FA-FA17-4894-8CCC-65750F6BC9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E5C9FA-FA17-4894-8CCC-65750F6BC9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E5C9FA-FA17-4894-8CCC-65750F6BC9E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3141DCEF-FF2D-43C7-9730-069E2EB219D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3141DCEF-FF2D-43C7-9730-069E2EB219D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3141DCEF-FF2D-43C7-9730-069E2EB219D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3141DCEF-FF2D-43C7-9730-069E2EB219D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+﻿<div style="overflow:hidden;">
+    <div class="ProductItemLeftDiv">
+        <img src="../../Content/Images/{{Image}}" />
+    </div>
+    <div class="ProductItemRightDiv">
+        <div><h2>{{Name}}</h2></div>
+        <hr />
+        <b>Price</b> {{Price}}
+        <hr />
+        {{SmallDescription}}
+        <hr />
+    </div>
+</div>
+<div id="divLargeDescription">
+    <h3>Description</h3>
+    <hr />
+    {{LargeDescription}}
+</div>
+<div id="divAttributes">
+    <h3>Attributes</h3>
+    <hr />
+    <table>
+        {{#each Attributes}}
+            <tr>
+                <td><b>{{Name}}</b></td>
+                <td>{{Value}}</td>
+            </tr>    
+        {{/each}}
+    </table>
+</div>
+<div id="divReviews ">
+    <h3>Reviews</h3>
+    <hr />
+    {{#each Reviews}}
+        <span class="ReviewedBySpan"><b>{{ReviewedBy}}</b></span>
+        <span class="RatingSpan">Rating: {{Rating}}</span>
+        <hr />
+        <div>{{ReviewText}}</div>
+    {{/each}}
+</div>

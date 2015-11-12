@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="TestCart.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="Content/Style/Style.css" rel="stylesheet"/>
+
+    <script src="Content/Scripts/jquery-1.11.3.min.js"></script>
+    <script src="Content/Scripts/handlebars-v4.0.2.js"></script>
+    <script src="Content/Scripts/App.js"></script>
+    <script src="Content/Scripts/Constants.js"></script>
+    <script src="Content/Scripts/Events.js"></script>
+    <script src="Content/Scripts/Service.js"></script>
+    <script src="Content/Scripts/Templates.js"></script>
+
+    <script>
+        $(document).ready(function ()
+        {
+            if(!window.App) window.LoadApp();
+        });
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>    
+</body>
+</html>
